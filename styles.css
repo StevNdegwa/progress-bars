@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  background-color: rgb(116, 115, 111);
+  color: white;
+  cursor: pointer;
+  min-width: 5rem;
+}
+
+section {
+  padding: 1rem;
+  max-width: 600px;
+  margin: auto;
+}
+
+.progress {
+  margin: 30px auto;
+  width: 500px;
+  height: 20px;
+  border-radius: 3rem;
+  background-color: #ebebeb;
+}
+
+.progress .progress_bar {
+  height: 100%;
+  width: 50%;
+  border-radius: 3rem;
+  padding-right: 0.5rem;
+  font-weight: bold;
+  color: rgb(75, 74, 74);
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  transition: width 500ms;
+}
+
+.progress .progress_bar.one {
+  background-color: #adde68;
+  background-image: repeating-linear-gradient(
+    120deg,
+    #96e22c,
+    #9ae72f 5px,
+    #cdee9f 5px,
+    #cdee9f 10px
+  );
+  border: 1px outset #adde68;
+  box-shadow: 1px 1px #c6e698;
+}
+
+.progress .progress_bar.two {
+  background-image: repeating-linear-gradient(
+    120deg,
+    #fa8878,
+    #fa8878 5px,
+    #ffa194 5px,
+    #ffa194 10px
+  );
+  border: 1px outset #fa8878;
+  box-shadow: 1px 1px #ffa194;
+}
+
+.progress .progress_bar.three {
+  background-color: #fefefe;
+  border: 1px outset #e0e0e0;
+  box-shadow: 1px 1px #fefefe;
+}
+
+.progress .progress_bar.four {
+  background-image: repeating-linear-gradient(
+    120deg,
+    #7cbfe4,
+    #7cbfe4 5px,
+    #a3cce7 5px,
+    #a3cce7 10px
+  );
+  border: 1px outset #6db7e0;
+  box-shadow: 1px 1px #abdcfc;
+}
+
+.progress .progress_bar.five {
+  background-image: repeating-linear-gradient(
+    120deg,
+    #f5bc47,
+    #f5bc47 5px,
+    #fcdb7b 5px,
+    #fcdb7b 10px
+  );
+  border: 1px outset #fcdb7b;
+  box-shadow: 1px 1px #f5bc47;
+}
